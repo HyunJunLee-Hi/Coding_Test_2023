@@ -102,8 +102,8 @@ if dp[m] != 10001:
 else:
     print(-1)
 
-DFS/BFS
-# 특정 거리의 도시 찾기
+# DFS/BFS
+## 특정 거리의 도시 찾기
 from collections import deque
 def bfs(graph, start, n, k):
     visited = [[0]*n for _ in range(n)]
